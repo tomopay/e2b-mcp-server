@@ -9,7 +9,8 @@
   },
   "type": "module",
   "bin": {
-    "@e2b/mcp-server": "./build/index.js"
+    "@e2b/mcp-server": "./build/index.js",
+    "@e2b/mcp-server-pay": "./build/index.pay.js"
   },
   "files": [
     "build"
@@ -23,6 +24,7 @@
   "dependencies": {
     "@e2b/code-interpreter": "^1.0.4",
     "@modelcontextprotocol/sdk": "1.26.0",
+    "@tomopay/gateway": "^0.1.1",
     "dotenv": "^16.4.5",
     "zod": "^3.23.8",
     "zod-to-json-schema": "^3.23.5"
